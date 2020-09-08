@@ -1,0 +1,82 @@
+.footer {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.footer .row {
+  display: flex;
+}
+.info-container,
+.app-container {
+  flex: 50%;
+}
+
+.info-container {
+  display: flex;
+}
+
+.info-container .column {
+  margin: 0 30px;
+}
+
+.column-title {
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  font-size: 12px;
+}
+
+.info-container .column a {
+  color: rgb(66, 66, 66);
+  font-size: 14px;
+}
+
+.app-container .text {
+  padding: 10px 0;
+}
+
+.app-container .img-container img {
+  width: 100px;
+  height: 30px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.social-row {
+  margin-top: 100px;
+  border-top: 1px solid rgb(201, 201, 201);
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-row .footer-info p {
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  color: rgb(66, 66, 66);
+  margin: 10px 10px;
+}
+
+.social-row .icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.social-row .fb {
+  color: #3b5998;
+}
+
+.social-row .tw {
+  color: #1da1f2;
+}
+
+.social-row .ig {
+  color: #e1306c;
+}
+
+.social-row .icon:hover {
+  color: rgb(0, 204, 0);
+}

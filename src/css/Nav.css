@@ -1,0 +1,48 @@
+.nav {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  justify-content: space-between;
+  box-shadow: 0 0px 2px -2px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  background-color: white;
+}
+
+.nav ul {
+  display: flex;
+}
+
+.nav ul li {
+  list-style-type: none;
+  padding: 20px;
+  color: rgb(59, 59, 59);
+  cursor: pointer;
+}
+
+.nav ul li:hover {
+  background-color: rgb(186, 240, 143);
+  color: green;
+  font-weight: 600;
+}
+
+.nav img {
+  padding: 5px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.nav .login {
+  padding: 10px;
+}
+
+.nav .login .btn {
+  color: green;
+  padding: 10px 20px;
+  background-color: white;
+  border: 1px solid green;
+  border-radius: 8px;
+}
+
+.nav .login .btn:hover {
+  background-color: rgb(186, 240, 143);
+}
